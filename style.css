@@ -5,10 +5,11 @@
 }
 
 body {
-    background-image: url("./jr-korpa-4DykvhW8SsI-unsplash.jpg");
-    background-size: cover;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 60%, rgba(255,255,255,1) 77%);
+    background: cover;
+    background-image:
+    linear-gradient(to right, rgba(2, 2, 2, 0.69), rgba(117, 19, 93, 0.73)),
+    url('./jr-korpa-4DykvhW8SsI-unsplash.jpg');
+ 
 }
 
 
@@ -34,12 +35,6 @@ hr {
 
 .mail {
     position: relative;
-}
-
-i {
-    position: absolute;
-    top: 30px;
-    padding-right: 30px;
 }
 
 .form {
